@@ -1,0 +1,43 @@
+{
+  "name": "mempalace-persistent-kilo",
+  "version": "1.0.0",
+  "description": "MemPalace persistence plugin for Kilo Code — injects memories, exports transcripts, and mines sessions into a persistent memory palace.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "kilo",
+    "kilocode",
+    "plugin",
+    "mempalace",
+    "persistence",
+    "memory"
+  ],
+  "author": "delac",
+  "license": "MIT",
+  "dependencies": {
+    "@kilocode/plugin": "^7.8.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

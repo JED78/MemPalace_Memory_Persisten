@@ -1,0 +1,16 @@
+{
+  "palacePath": "C:\\ProyectosIA\\mempalace-memory",
+  "mcpEndpoint": "mempalace",
+  "mpWriteScript": "C:\\Users\\delac\\.mempalace\\mp-write.py",
+  "identityPath": "C:\\Users\\delac\\.mempalace\\identity.txt",
+  "pluginConfigPath": "C:\\Users\\delac\\.mempalace\\plugin-config.json",
+  "autoInject": true,
+  "exportTranscripts": true,
+  "mineOnIdle": true,
+  "mineOnExit": true,
+  "mineOnStartup": true,
+  "statusFooter": true,
+  "maxMemories": 10,
+  "transcriptDir": "C:\\ProyectosIA\\mempalace-memory\\transcripts",
+  "logLevel": "info"
+}
